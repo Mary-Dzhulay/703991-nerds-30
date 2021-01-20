@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Mariya Dzhulay](https://up.htmlacademy.ru/htmlcss/30/user/703991).
-* Наставник: `Неизвестно`.
+* Наставник: [Наталья Налимова](https://htmlacademy.ru/profile/tuetfe).
 
 ---
 

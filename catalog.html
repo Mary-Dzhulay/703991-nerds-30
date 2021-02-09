@@ -10,57 +10,57 @@
         <a><img src="https://via.placeholder.com/" width="209" height="90" alt="Логотип студии Нёрдс">
         </a>
         <ul>
-            <li><a href="#">Студия</a></li>
-            <li><a href="#">Клиенты</a></li>
-            <li><a href="#">Магазин</a></li>
-            <li><a href="#">Контакты</a></li>
-            <li><a href="#">Корзина</a></li>
+            <li><a href="http://index.html">Студия</a></li>
+            <li><a href="http://index.html">Клиенты</a></li>
+            <li><a href="http://index.html">Магазин</a></li>
+            <li><a href="http://index.html">Контакты</a></li>
+            <li><a href="http://index.html">Корзина</a></li>
         </ul>
     </nav>
     </header>
 <main>
     <h1>Магазин готовых шаблонов</h1>
-    <section>
+    <h2>Фильтр товаров</h2>
+    <form method="get" action="https://echo.htmlacademy.ru">
+      <fieldset>
         <h5>СТОИМОСТЬ</h5>
+        <div></div>
         <ul>
             <li>
                 <p>ОТ 0 ДО 15 000</p>
             </li>
-    </section>
-    <section>
-    <h2>Фильтр товаров</h2>
-    <form method="get" action="https://echo.htmlacademy.ru">
-      <fieldset>
+        </ul>   
         <legend>Сетка</legend>
         <ul>
             <li>
-        <input type="radio" name="product-grid" value="adapt" id="filter-adapt" checked>
-        <label for="product-grid">Адаптивная</label></li>
+        <input type="radio" id="filter-adapt" checked>
+        <label for="filter-adapt">Адаптивная</label></li>
             <li>
-        <input type="radio" name="product-grid" value="fix" id="filter-fix">
-        <label for="product-grid">Фиксированная</label></li> 
+        <input type="radio" id="filter-fix">
+        <label for="filter-fix">Фиксированная</label></li> 
             <li>
-        <input type="radio" name="product-grid" value="tyre" id="filter-tyre">
-        <label for="product-grid">Резиновая</label></li> 
+        <input type="radio" id="filter-tyre">
+        <label for="filter-tyre">Резиновая</label></li> 
+        </ul>
       </fieldset>
       <fieldset>
         <legend>Особенности</legend>
         <ul>
             <li>
-                <input type="checkbox" name="слайдер" id="filter-слайдер" checked>
-                <label for="filter-слайдер">Слайдер</label></li>
+                <input type="checkbox" id="filter-slider" checked>
+                <label for="filter-slider">Слайдер</label></li>
             <li>
-                <input type="checkbox" name="блок преимуществ" id="filter-блок преимуществ">
-                <label for="filter-блок преимуществ">Блок преимуществ</label></li>    
+                <input type="checkbox" id="filter-adv">
+                <label for="filter-adv">Блок преимуществ</label></li>    
             <li>
-                <input type="checkbox" name="новости" id="filter-новости" checked>
-                <label for="filter-новости">Новости</label></li>
+                <input type="checkbox" id="filter-news" checked>
+                <label for="filter-news">Новости</label></li>
             <li>
-                <input type="checkbox" name="галерея" id="filter-галерея">
-                <label for="filter-галерея">Галерея</label></li>    
+                <input type="checkbox" name="galery" id="filter-galery">
+                <label for="filter-galery">Галерея</label></li>    
             <li>
-                <input type="checkbox" name="корзина" id="filter-корзина">
-                <label for="filter-корзина">Корзина</label></li>   
+                <input type="checkbox" name="bin" id="filter-bin">
+                <label for="filter-bin">Корзина</label></li>   
         </ul>
       </fieldset>
       <button type="submit">Показать</button>
@@ -68,27 +68,50 @@
   </section>
   <section>
     <h2>Список сайтов</h2>
+    <h5>СОРТИРОВАТЬ</h5>
+    <ul> 
+        <li><a href="#">ПО ЦЕНЕ</a></li>
+        <li><a href="#">ПО ТИПУ</a></li>
+        <li><a href="#">ПО НАЗВАНИЮ</a></li>
+        <li><a href="#">треугольник 1</a></li>
+        <li><a href="#">треугольник 2</a></li>
+    </ul>
     <ul>
         <li>
             <img src="https://via.placeholder.com/" width="359" height="578" alt="Седона">
             <a href=""><h3>SEDONA</h3></a>
             <p>Информационный сайт<br>для туристов</p>
-            <button type="button" width="200" height="50">9 900 ₽</button>
+            <button type="button">9 900 ₽</button>
         </li>
         <li> 
-            <img src="https://via.placeholder.com/" width="358" height="578" alt="Пинк">
+            <img src="https://via.placeholder.com/" width="359" height="578" alt="Пинк">
+            <a href=""><h3>SEDONA</h3></a>
+            <p>Информационный сайт<br>для туристов</p>
+            <button type="button">9 900 ₽</button>
         </li>
         <li> 
-            <img src="https://via.placeholder.com/" width="358" height="578" alt="Бородинский">
+            <img src="https://via.placeholder.com/" width="359" height="578" alt="Бородинский">
+            <a href=""><h3>SEDONA</h3></a>
+            <p>Информационный сайт<br>для туристов</p>
+            <button type="button">9 900 ₽</button>
         </li>
         <li> 
             <img src="https://via.placeholder.com/" width="359" height="578" alt="Мишка">
+            <a href=""><h3>SEDONA</h3></a>
+            <p>Информационный сайт<br>для туристов</p>
+            <button type="button">9 900 ₽</button>
         </li>
         <li> 
             <img src="https://via.placeholder.com/" width="359" height="578" alt="А плюс">
+            <a href=""><h3>SEDONA</h3></a>
+            <p>Информационный сайт<br>для туристов</p>
+            <button type="button">9 900 ₽</button>
         </li>
         <li> 
             <img src="https://via.placeholder.com/" width="359" height="578" alt="Кваст">
+            <a href=""><h3>SEDONA</h3></a>
+            <p>Информационный сайт<br>для туристов</p>
+            <button type="button">9 900 ₽</button>
         </li>
     </ul>
     <ul>

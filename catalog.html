@@ -7,14 +7,14 @@
 <body>
     <header class="main-header catalog">
     <nav>
-        <a><img src="https://via.placeholder.com/" width="209" height="90" alt="Логотип студии Нёрдс">
+        <a href="/index.html"><img src="https://via.placeholder.com/" width="209" height="90" alt="Логотип студии Нёрдс">
         </a>
         <ul>
-            <li><a href="http://index.html">Студия</a></li>
-            <li><a href="http://index.html">Клиенты</a></li>
-            <li><a href="http://index.html">Магазин</a></li>
-            <li><a href="http://index.html">Контакты</a></li>
-            <li><a href="http://index.html">Корзина</a></li>
+            <li><a href="">Студия</a></li>
+            <li><a href="">Клиенты</a></li>
+            <li><a href="">Магазин</a></li>
+            <li><a href="">Контакты</a></li>
+            <li><a href="">Корзина</a></li>
         </ul>
     </nav>
     </header>
@@ -23,13 +23,15 @@
     <h2>Фильтр товаров</h2>
     <form method="get" action="https://echo.htmlacademy.ru">
       <fieldset>
-        <h5>СТОИМОСТЬ</h5>
+        <legend>СТОИМОСТЬ</legend>
         <div></div>
         <ul>
             <li>
                 <p>ОТ 0 ДО 15 000</p>
             </li>
-        </ul>   
+        </ul>  
+      </fieldset>
+      <fieldset> 
         <legend>Сетка</legend>
         <ul>
             <li>
@@ -56,8 +58,8 @@
                 <input type="checkbox" id="filter-news" checked>
                 <label for="filter-news">Новости</label></li>
             <li>
-                <input type="checkbox" name="galery" id="filter-galery">
-                <label for="filter-galery">Галерея</label></li>    
+                <input type="checkbox" name="gallery" id="filter-gallery">
+                <label for="filter-gallery">Галерея</label></li>    
             <li>
                 <input type="checkbox" name="bin" id="filter-bin">
                 <label for="filter-bin">Корзина</label></li>   
@@ -65,8 +67,7 @@
       </fieldset>
       <button type="submit">Показать</button>
     </form>
-  </section>
-  <section>
+   <section>
     <h2>Список сайтов</h2>
     <h5>СОРТИРОВАТЬ</h5>
     <ul> 
@@ -79,37 +80,37 @@
     <ul>
         <li>
             <img src="https://via.placeholder.com/" width="359" height="578" alt="Седона">
-            <a href=""><h3>SEDONA</h3></a>
+            <h3><a href="">SEDONA</a></h3>
             <p>Информационный сайт<br>для туристов</p>
             <button type="button">9 900 ₽</button>
         </li>
         <li> 
             <img src="https://via.placeholder.com/" width="359" height="578" alt="Пинк">
-            <a href=""><h3>SEDONA</h3></a>
+            <h3><a href="">SEDONA</a></h3>
             <p>Информационный сайт<br>для туристов</p>
             <button type="button">9 900 ₽</button>
         </li>
         <li> 
             <img src="https://via.placeholder.com/" width="359" height="578" alt="Бородинский">
-            <a href=""><h3>SEDONA</h3></a>
+            <h3><a href="">SEDONA</a></h3>
             <p>Информационный сайт<br>для туристов</p>
             <button type="button">9 900 ₽</button>
         </li>
         <li> 
             <img src="https://via.placeholder.com/" width="359" height="578" alt="Мишка">
-            <a href=""><h3>SEDONA</h3></a>
+            <h3><a href="">SEDONA</a></h3>
             <p>Информационный сайт<br>для туристов</p>
             <button type="button">9 900 ₽</button>
         </li>
         <li> 
             <img src="https://via.placeholder.com/" width="359" height="578" alt="А плюс">
-            <a href=""><h3>SEDONA</h3></a>
+            <h3><a href="">SEDONA</a></h3>
             <p>Информационный сайт<br>для туристов</p>
             <button type="button">9 900 ₽</button>
         </li>
         <li> 
             <img src="https://via.placeholder.com/" width="359" height="578" alt="Кваст">
-            <a href=""><h3>SEDONA</h3></a>
+            <h3><a href="">SEDONA</a></h3>
             <p>Информационный сайт<br>для туристов</p>
             <button type="button">9 900 ₽</button>
         </li>
@@ -129,6 +130,7 @@
         </li>
       </ul>
     </section>
+    </main>
     <footer class="main-footer">
         <h2>NЁRDS DESIGN STUDIO</h2>
         <p>191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8<br>тел. +7 (812) 275-75-75</p>

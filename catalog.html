@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <title>Нёрдс каталог</title>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <title>Нёрдс</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="favicon/180.png">
+  </head>
 <body>
     <header class="main-header catalog">
     <nav>
@@ -35,14 +38,11 @@
         <legend>Сетка</legend>
         <ul>
             <li>
-        <input type="radio" id="filter-adapt" checked>
-        <label for="filter-adapt">Адаптивная</label></li>
+            <input name="choice" type="radio" value="adapt" checked>Адаптивная</li>
             <li>
-        <input type="radio" id="filter-fix">
-        <label for="filter-fix">Фиксированная</label></li> 
+            <input name="choice" type="radio" value="fix">Фиксированная</li>
             <li>
-        <input type="radio" id="filter-tyre">
-        <label for="filter-tyre">Резиновая</label></li> 
+            <input name="choice" type="radio" value="fix">Резиновая</li> 
         </ul>
       </fieldset>
       <fieldset>
@@ -132,22 +132,15 @@
     </section>
     </main>
     <footer class="main-footer">
-        <h2>NЁRDS DESIGN STUDIO</h2>
-        <p>191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8<br>тел. +7 (812) 275-75-75</p>
-        <a href="#">НАПИШИТЕ НАМ</a>
-        <img src="img/mark.png" width="231" height="190" alt="Точка Нёрдс на карте">
-        <img src="img/map.jpg" width="1440" height="416" alt="карта">
-        <section class="footer-info">
-        <ul>
-          <li><a><img src="https://via.placeholder.com/" width=" " height=" " alt="соцсеть VK"></a></li>
-          <li><a><img src="https://via.placeholder.com/" width=" " height=" " alt="соцсеть FB"></a></li>
-          <li><a><img src="https://via.placeholder.com/" width=" " height=" " alt="соцсеть INSTA"></a></li>
-        </ul>
-        </section>
-      <section class="footer-promo">
-        <p><b>Давайте дружить, это выгодно!</b></p>
-        <p>Скидка 10% для друзей из социальных сетей.</p>
-      </section>
+      <h2>NЁRDS DESIGN STUDIO</h2>
+      <p>191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8<br>тел. +7 (812) 275-75-75</p>
+      <a href="#">НАПИШИТЕ НАМ</a>
+      <img src="img/mark.png" width="231" height="190" alt="Точка Нёрдс на карте">
+      <img src="img/map.jpg" width="1440" height="416" alt="карта">
+    <section class="footer-promo">
+      <p><b>Давайте дружить, это выгодно!</b></p>
+      <p>Скидка 10% для друзей из социальных сетей.</p>
+    </section>
     </footer>
 </body>
 </html>

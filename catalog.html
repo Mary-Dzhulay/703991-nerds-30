@@ -10,7 +10,7 @@
 <body>
     <header class="main-header catalog">
     <nav>
-      <a><img src="logo/nerds-logo.png" width="159,87" height="65,02" alt="Логотип студии Нёрдс">
+      <a><img src="logo/nerds-logo.png" width="160" height="66" alt="Логотип студии Нёрдс">
       </a>
         <ul>
             <li><a href="">Студия</a></li>
@@ -37,32 +37,19 @@
       <fieldset> 
         <legend>Сетка</legend>
         <ul>
-            <li>
-            <input name="choice" type="radio" value="adapt" checked>Адаптивная</li>
-            <li>
-            <input name="choice" type="radio" value="fix">Фиксированная</li>
-            <li>
-            <input name="choice" type="radio" value="fix">Резиновая</li> 
+            <li><label><input name="choice" type="radio" value="adapt" checked><span>Адаптивная</span></label></li>
+            <li><label><input name="choice" type="radio" value="fix"><span>Фиксированная</span></label></li> 
+            <li><label><input name="choice" type="radio" value="rub"><span>Резиновая</span></label></li>
         </ul>
       </fieldset>
       <fieldset>
         <legend>Особенности</legend>
         <ul>
-            <li>
-                <input type="checkbox" id="filter-slider" checked>
-                <label for="filter-slider">Слайдер</label></li>
-            <li>
-                <input type="checkbox" id="filter-adv">
-                <label for="filter-adv">Блок преимуществ</label></li>    
-            <li>
-                <input type="checkbox" id="filter-news" checked>
-                <label for="filter-news">Новости</label></li>
-            <li>
-                <input type="checkbox" name="gallery" id="filter-gallery">
-                <label for="filter-gallery">Галерея</label></li>    
-            <li>
-                <input type="checkbox" name="bin" id="filter-bin">
-                <label for="filter-bin">Корзина</label></li>   
+            <li><label><input name="check" type="checkbox" value="slider" checked><span>Слайдер</span></label></li>
+            <li><label><input name="check" type="checkbox" value="adv"><span>Блок преимуществ</span></label></li>
+            <li><label><input name="check" type="checkbox" value="news" checked><span>Новости</span></label></li>
+            <li><label><input name="check" type="checkbox" value="gallery"><span>Галерея</span></label></li>  
+            <li><label><input name="check" type="checkbox" value="bin"><span>Корзина</span></label></li>
         </ul>
       </fieldset>
       <button type="submit">Показать</button>
@@ -137,6 +124,12 @@
       <a href="#">НАПИШИТЕ НАМ</a>
       <img src="img/mark.png" width="231" height="190" alt="Точка Нёрдс на карте">
       <img src="img/map.jpg" width="1440" height="416" alt="карта">
+      <section class="footer-info">
+        <ul>
+          <li><img src="https://via.placeholder.com/" width=" " height=" " alt="соцсеть VK"></li>
+          <li><img src="https://via.placeholder.com/" width=" " height=" " alt="соцсеть FB"></li>
+          <li><img src="https://via.placeholder.com/" width=" " height=" " alt="соцсеть INSTA"></li>
+        </ul>
     <section class="footer-promo">
       <p><b>Давайте дружить, это выгодно!</b></p>
       <p>Скидка 10% для друзей из социальных сетей.</p>

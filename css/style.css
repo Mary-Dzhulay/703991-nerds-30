@@ -1,0 +1,124 @@
+/* Fonts */
+@font-face {
+  font-family: "roboto";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/roboto.woff2") format("woff2"),
+       url("../fonts/roboto.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto Bold";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/robotobold.woff2") format("woff2"),
+       url("../fonts/robotobold.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto Medium";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/robotomedium.woff2") format("woff2"),
+       url("../fonts/robotomedium.woff") format("woff");
+}
+
+/* Variables */
+:root {
+--basic-color: #000000;
+--background-color: #eeeeee;
+--add-text-color: #283136;
+--basic-white: #ffffff;
+--main-background-color: #888888;
+--basic-red: #FB565A;
+--basic-green: #00CA74;
+--basic-yellow: #EFC849;
+--map-text-color: #666666;
+--footer-promo-text: #444444;
+}
+
+body {
+margin: 0;
+padding: 0;
+font-family: "roboto";
+font-size: 16px;
+font-weight: 24px;
+font-weight: 500;
+color: var(--basic-color);
+}
+
+a {text-decoration: none;
+font-size: 16px;
+line-height: 18px;}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+nav {
+  font-size: 16px;
+  font-weight: 30px;
+  color: var(--basic-color);
+  text-transform: uppercase;
+}
+
+.text {color: var(--basic-color);
+  font-size: 55px;
+line-height: 55px;}
+
+p {
+  color: var(--add-text-color);
+}
+
+.web,
+.app,
+.pres {
+  font-size: 24px;
+line-height: 30px;
+font-weight: bold;
+}
+
+.slogan {
+  font-size: 45px;
+line-height: 45px;
+font-weight: bold;
+}
+
+.do {
+  color:  var(--basic-color);
+  font-weight: bold;
+}
+
+.numbers {
+  font-size: 45px;
+  line-height: 64px;
+  font-weight: bold;
+}
+.subtext {
+  font-size: 16px;
+  line-height: 18px;
+  coLor: var(--add-text-color);
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.window {
+  color: var(--map-text-color);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.footer-text {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.footer-text_ {
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--footer-promo-text);
+}

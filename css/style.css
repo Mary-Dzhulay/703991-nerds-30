@@ -3,7 +3,7 @@
   font-family: "Roboto";
   font-weight: 400;
   font-style: normal;
-  src: local("Roboto")
+  src: local("Roboto"),
       url("../fonts/roboto.woff2") format("woff2"),
       url("../fonts/roboto.woff") format("woff");
 }
@@ -11,7 +11,7 @@
   font-family: "Roboto";
   font-weight: 700;
   font-style: normal;
-  src: local("Roboto")
+  src: local("Roboto"),
       url("../fonts/robotobold.woff2") format("woff2"),
       url("../fonts/robotobold.woff") format("woff");
 }
@@ -19,9 +19,9 @@
   font-family: "Roboto";
   font-weight: 500;
   font-style: normal;
-  src: local("Roboto")
-      url("../fonts/robotomedium.woff") format("woff2"),
-      url("../fonts/robotomedium.woff2") format("woff");
+  src: local("Roboto"),
+      url("../fonts/robotomedium.woff2") format("woff2"),
+      url("../fonts/robotomedium.woff") format("woff");
 }
 
 /* Variables */
@@ -43,53 +43,64 @@ margin: 0;
 padding: 0;
 font-family: "Roboto";
 font-size: 16px;
-font-weight: 24px;
+line-height: 24px;
+font-weight: 400;
 color: var(--basic-color);
 }
 
-a {text-decoration: none;
+.main-header {
+  color: var(--basic-color);
+  background-color: var(--background-color);
+}
+
+li {
+  font-weight: 500;
+  color: var(--basic-color);
+  font-size: 16px;
+  line-height: 30px;
+}
+
+a {
+text-decoration: none;
 font-size: 16px;
-line-height: 18px;}
+line-height: 18px;
+text-transform: uppercase;
+color: var(--basic-white);
+background-color: gray; /* чтобы видно было */
+}
 
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* Про nav не поняла */
-nav {
-  font-size: 16px;
-  font-weight: 30px;
-  color: var(--basic-color);
-  text-transform: uppercase;
-}
-
-.text {color: var(--basic-color);
+.text {
   font-size: 55px;
-line-height: 55px;
-font-weight: 500;
+  line-height: 55px;
+  font-weight: 500;
 }
 
 p {
   color: var(--add-text-color);
+  font-weight: 400;
 }
 
 .web,
 .app,
 .pres {
   font-size: 24px;
-line-height: 30px;
-font-weight: 700;
+  line-height: 30px;
+  font-weight: 700;
 }
 
 .slogan {
   font-size: 45px;
-line-height: 45px;
-font-weight: 500;
+  line-height: 45px;
+  font-weight: 500;
 }
 
 .do {
-  color:  var(--basic-color);
+  color: var(--basic-color);
   font-weight: 700;
 }
 
@@ -102,6 +113,7 @@ font-weight: 500;
 .subtext {
   font-size: 16px;
   line-height: 18px;
+  font-weight: 400;
   coLor: var(--add-text-color);
 }
 
@@ -114,7 +126,7 @@ h2 {
 .window {
   color: var(--map-text-color);
   font-size: 16px;
-  line-height: 24px;
+  line-height: 18px;
 }
 
 .footer-text {
@@ -126,5 +138,6 @@ h2 {
 .footer-text_ {
   font-size: 16px;
   line-height: 22px;
+  font-weight: 400;
   color: var(--footer-promo-text);
 }

@@ -41,11 +41,13 @@
 body {
 margin: 0;
 padding: 0;
-font-family: "Roboto";
-font-size: 16px;
-line-height: 24px;
-font-weight: 400;
+font-family: "Roboto", "Arial", sans-serif; /* сначала прописала Robotomedium, Robotobold, потом удалила, прочитав Б10 */
 color: var(--basic-color);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .main-header {
@@ -53,25 +55,21 @@ color: var(--basic-color);
   background-color: var(--background-color);
 }
 
-li {
-  font-weight: 500;
-  color: var(--basic-color);
-  font-size: 16px;
-  line-height: 30px;
-}
-
-a {
+a { /* совсем удалить или всё же можно оставить эти стили? */
 text-decoration: none;
-font-size: 16px;
-line-height: 18px;
 text-transform: uppercase;
 color: var(--basic-white);
-background-color: gray; /* чтобы видно было */
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+p {
+  color: var(--basic-color);
+}
+
+.nav {
+  color: var(--basic-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .text {
@@ -80,17 +78,45 @@ img {
   font-weight: 500;
 }
 
-p {
-  color: var(--add-text-color);
-  font-weight: 400;
+.know {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  background-color: var(--basic-red);
 }
 
-.web,
-.app,
-.pres {
+.description {
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: var(--add-text-color);
+}
+
+.services {
+  font-weight: 700;
   font-size: 24px;
   line-height: 30px;
-  font-weight: 700;
+}
+
+.red {
+background-color: var(--basic-red);
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+}
+
+.green {
+background-color: var(--basic-green);
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+}
+
+.yellow {
+background-color: var(--basic-yellow);
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
 }
 
 .slogan {
@@ -99,9 +125,12 @@ p {
   font-weight: 500;
 }
 
+/* искренне не понимаю, почему в браузере текст, блин, не жирный */
 .do {
   color: var(--basic-color);
   font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .numbers {
@@ -110,34 +139,48 @@ p {
   font-weight: 700;
 }
 
-.subtext {
-  font-size: 16px;
-  line-height: 18px;
-  font-weight: 400;
-  coLor: var(--add-text-color);
+sup { /* не стала делать классом, т.к. больше не встречается, то же самое с b, h2 */
+  font-size: 26px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.clarification {
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+color: var(--add-text-color);
 }
 
 h2 {
+  font-weight: 700;
   font-size: 18px;
   line-height: 30px;
-  font-weight: 700;
+  color: var(--basic-color);
 }
 
 .window {
   color: var(--map-text-color);
+  font-weight: 400;
   font-size: 16px;
   line-height: 18px;
 }
 
-.footer-text {
+/* я забыла, мы, кажется, обсуждали, что с ними что-то нужно будет сделать */
+.icon {
+  background-color: #E1E1E1;
+}
+
+b {
   font-size: 36px;
   line-height: 36px;
   font-weight: 700;
 }
 
-.footer-text_ {
+.footer-text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  font-weight: 400;
   color: var(--footer-promo-text);
 }
+

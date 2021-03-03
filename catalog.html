@@ -15,20 +15,21 @@
       <a href="index.html"><img src="img/nerds-logo.png" width="160" height="66" alt="Логотип студии Нёрдс">
       </a>
         <ul>
-            <li><a href="">Студия</a></li>
-            <li><a href="">Клиенты</a></li>
-            <li><a href="">Магазин</a></li>
-            <li><a href="">Контакты</a></li>
-            <li><a href="">Корзина</a></li>
+            <li><a class="nav" href="">Студия</a></li>
+            <li><a class="nav" href="">Клиенты</a></li>
+            <li><a class="nav" href="">Магазин</a></li>
+            <li><a class="nav" href="">Контакты</a></li>
+            <li><a class="nav" href="">Корзина</a></li>
         </ul>
+        <p class="text">Магазин готовых шаблонов</p>
     </nav>
     </header>
 <main>
-    <h1>Магазин готовых шаблонов</h1>
+
     <h2>Фильтр товаров</h2>
     <form method="get" action="https://echo.htmlacademy.ru">
       <fieldset>
-        <legend>СТОИМОСТЬ</legend>
+        <legend class="filter">Стоимость:</legend>
         <div></div>
         <ul>
             <li>
@@ -37,106 +38,106 @@
         </ul>
       </fieldset>
       <fieldset>
-        <legend>Сетка</legend>
+        <legend class="filter">Сетка:</legend>
         <ul>
-            <li><label><input name="choice" type="radio" value="adapt" checked><span>Адаптивная</span></label></li>
-            <li><label><input name="choice" type="radio" value="fix"><span>Фиксированная</span></label></li>
-            <li><label><input name="choice" type="radio" value="rub"><span>Резиновая</span></label></li>
+            <li><label><input name="choice" type="radio" value="adapt" checked><span class="choice">Адаптивная</span></label></li>
+            <li><label><input name="choice" type="radio" value="fix"><span class="choice">Фиксированная</span></label></li>
+            <li><label><input name="choice" type="radio" value="rub"><span class="choice">Резиновая</span></label></li>
         </ul>
       </fieldset>
       <fieldset>
-        <legend>Особенности</legend>
+        <legend class="filter">Особенности:</legend>
         <ul>
-            <li><label><input name="check" type="checkbox" value="slider" checked><span>Слайдер</span></label></li>
-            <li><label><input name="check" type="checkbox" value="adv"><span>Блок преимуществ</span></label></li>
-            <li><label><input name="check" type="checkbox" value="news" checked><span>Новости</span></label></li>
-            <li><label><input name="check" type="checkbox" value="gallery"><span>Галерея</span></label></li>
-            <li><label><input name="check" type="checkbox" value="bin"><span>Корзина</span></label></li>
+            <li><label><input name="check" type="checkbox" value="slider" checked><span class="choice">Слайдер</span></label></li>
+            <li><label><input name="check" type="checkbox" value="adv"><span class="choice">Блок преимуществ</span></label></li>
+            <li><label><input name="check" type="checkbox" value="news" checked><span class="choice">Новости</span></label></li>
+            <li><label><input name="check" type="checkbox" value="gallery"><span class="choice">Галерея</span></label></li>
+            <li><label><input name="check" type="checkbox" value="bin"><span class="choice">Корзина</span></label></li>
         </ul>
       </fieldset>
       <button type="submit">Показать</button>
     </form>
    <section>
     <h2>Список сайтов</h2>
-    <h5>СОРТИРОВАТЬ</h5>
+    <h5 class="filter">Сортировать:</h5>
     <ul>
-        <li><a href="#">ПО ЦЕНЕ</a></li>
-        <li><a href="#">ПО ТИПУ</a></li>
-        <li><a href="#">ПО НАЗВАНИЮ</a></li>
+        <li><a class="price" href="#">ПО ЦЕНЕ</a></li>
+        <li><a class="type" href="#">ПО ТИПУ</a></li>
+        <li><a class="type" href="#">ПО НАЗВАНИЮ</a></li>
         <li><a href="#">от большего к меньшему</a></li>
         <li><a href="#">от меньшего к большему</a></li>
     </ul>
     <ul>
         <li>
             <img src="img/sedona.jpg" width="359" height="578" alt="Седона">
-            <h3><a href="">SEDONA</a></h3>
-            <p>Информационный сайт<br>для туристов</p>
+            <h3><a class="project-name" href="">SEDONA</a></h3>
+            <p class="project-info">Информационный сайт<br>для туристов</p>
             <button type="button">9 900 ₽</button>
         </li>
         <li>
             <img src="img/pink.jpg" width="359" height="578" alt="Пинк">
-            <h3><a href="">SEDONA</a></h3>
-            <p>Информационный сайт<br>для туристов</p>
+            <h3><a class="project-name" href="">SEDONA</a></h3>
+            <p class="project-info">Информационный сайт<br>для туристов</p>
             <button type="button">9 900 ₽</button>
         </li>
         <li>
             <img src="img/borodinsky.jpg" width="359" height="578" alt="Бородинский">
-            <h3><a href="">SEDONA</a></h3>
-            <p>Информационный сайт<br>для туристов</p>
+            <h3><a class="project-name" href="">SEDONA</a></h3>
+            <p class="project-info">Информационный сайт<br>для туристов</p>
             <button type="button">9 900 ₽</button>
         </li>
         <li>
             <img src="img/mishka.jpg" width="359" height="578" alt="Мишка">
-            <h3><a href="">SEDONA</a></h3>
-            <p>Информационный сайт<br>для туристов</p>
+            <h3><a class="project-name" href="">SEDONA</a></h3>
+            <p class="project-info">Информационный сайт<br>для туристов</p>
             <button type="button">9 900 ₽</button>
         </li>
         <li>
             <img src="img/aplus.jpg" width="359" height="578" alt="А плюс">
-            <h3><a href="">SEDONA</a></h3>
-            <p>Информационный сайт<br>для туристов</p>
+            <h3><a class="project-name" href="">SEDONA</a></h3>
+            <p class="project-info">Информационный сайт<br>для туристов</p>
             <button type="button">9 900 ₽</button>
         </li>
         <li>
             <img src="img/kvast.jpg" width="359" height="578" alt="Кваст">
-            <h3><a href="">SEDONA</a></h3>
-            <p>Информационный сайт<br>для туристов</p>
+            <h3><a class="project-name" href="">SEDONA</a></h3>
+            <p class="project-info">Информационный сайт<br>для туристов</p>
             <button type="button">9 900 ₽</button>
         </li>
     </ul>
     <ul>
         <li>
-          <a href="#">1</a>
+          <a class="page" href="#">1</a>
         </li>
         <li>
-          <a href="#">2</a>
+          <a class="pages" href="#">2</a>
         </li>
         <li>
-          <a href="#">3</a>
+          <a class="pages" href="#">3</a>
         </li>
         <li>
-          <a href="#">СЛЕДУЮЩАЯ</a>
+          <a class="pages" href="#">Следующая</a>
         </li>
       </ul>
     </section>
     </main>
     <footer class="main-footer">
-      <h2>NЁRDS DESIGN STUDIO</h2>
-      <p>191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8<br>тел. +7 (812) 275-75-75</p>
-      <a href="#">НАПИШИТЕ НАМ</a>
+      <h2 class="map-heading">NЁRDS DESIGN STUDIO</h2>
+      <p class="window">191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8<br>тел. +7 (812) 275-75-75</p>
+      <a class="write" href="#">НАПИШИТЕ НАМ</a>
       <img src="img/mark.png" width="231" height="190" alt="Точка Нёрдс на карте">
       <img src="img/map.jpg" width="1440" height="416" alt="карта">
       <section class="footer-info">
         <ul>
-          <li><img src="https://via.placeholder.com/" width=" " height=" " alt="соцсеть VK"></li>
-          <li><img src="https://via.placeholder.com/" width=" " height=" " alt="соцсеть FB"></li>
-          <li><img src="https://via.placeholder.com/" width=" " height=" " alt="соцсеть INSTA"></li>
+          <li><a href=""><span class="icon">ВКонтакте</span></a><li>
+          <li><a href=""><span class="icon">Facebook</span></a><li>
+          <li><a href=""><span class="icon">Instagram</span></a><li>
         </ul>
       </section>
     <section class="footer-promo">
-      <p><b>Давайте дружить, это выгодно!</b></p>
-      <p>Скидка 10% для друзей из социальных сетей.</p>
+      <p><b class="benefit">Давайте дружить, это выгодно!</b></p>
+      <p class="footer-text">Скидка 10% для друзей из социальных сетей.</p>
     </section>
     </footer>
-</body>
-</html>
+    </body>
+    </html>

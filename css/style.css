@@ -55,14 +55,9 @@ img {
   background-color: var(--background-color);
 }
 
-a { /* совсем удалить или всё же можно оставить эти стили? */
+a {
 text-decoration: none;
 text-transform: uppercase;
-color: var(--basic-white);
-}
-
-p {
-  color: var(--basic-color);
 }
 
 .nav {
@@ -83,6 +78,7 @@ p {
   font-size: 16px;
   line-height: 18px;
   background-color: var(--basic-red);
+  color: var(--basic-white);
 }
 
 .description {
@@ -99,24 +95,27 @@ color: var(--add-text-color);
 }
 
 .red {
-background-color: var(--basic-red);
-font-weight: 500;
-font-size: 16px;
-line-height: 18px;
+  color: var(--basic-white);
+  background-color: var(--basic-red);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
 }
 
 .green {
-background-color: var(--basic-green);
-font-weight: 500;
-font-size: 16px;
-line-height: 18px;
+  color: var(--basic-white);
+  background-color: var(--basic-green);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
 }
 
 .yellow {
-background-color: var(--basic-yellow);
-font-weight: 500;
-font-size: 16px;
-line-height: 18px;
+  color: var(--basic-white);
+  background-color: var(--basic-yellow);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
 }
 
 .slogan {
@@ -125,7 +124,6 @@ line-height: 18px;
   font-weight: 500;
 }
 
-/* искренне не понимаю, почему в браузере текст, блин, не жирный */
 .do {
   color: var(--basic-color);
   font-weight: 700;
@@ -137,22 +135,24 @@ line-height: 18px;
   font-size: 45px;
   line-height: 64px;
   font-weight: 700;
+  color: var(--basic-color);
 }
 
-sup { /* не стала делать классом, т.к. больше не встречается, то же самое с b, h2 */
+.percent {
   font-size: 26px;
   line-height: 40px;
   font-weight: 700;
+  color: var(--basic-color);
 }
 
-.clarification {
-font-weight: 400;
-font-size: 16px;
-line-height: 18px;
-color: var(--add-text-color);
+.th {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--add-text-color);
 }
 
-h2 {
+.map-heading {
   font-weight: 700;
   font-size: 18px;
   line-height: 30px;
@@ -166,15 +166,24 @@ h2 {
   line-height: 18px;
 }
 
+.write {
+  color: var(--basic-white);
+  background-color: var(--basic-red);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+}
+
 /* я забыла, мы, кажется, обсуждали, что с ними что-то нужно будет сделать */
 .icon {
   background-color: #E1E1E1;
 }
 
-b {
+.benefit {
   font-size: 36px;
   line-height: 36px;
   font-weight: 700;
+  color: var(--basic-color);
 }
 
 .footer-text {
@@ -184,3 +193,89 @@ b {
   color: var(--footer-promo-text);
 }
 
+.nav {
+  color: var(--basic-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.filter {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--basic-color);
+  text-transform: uppercase;
+}
+
+.choice {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--add-text-color);
+}
+
+.price {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--basic-color);
+  text-transform: uppercase;
+}
+
+.type {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--basic-color);
+  text-transform: uppercase;
+}
+/* не пойму что-т как треугольники сделать, экспортировать и добавлять? */
+
+/* не знала как дать стили кнопкам, нашла такой вариант, но он не Д25 тоже, поэтому неправильно, наверн */
+button[type=submit] {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--basic-color);
+  background-color: var(--background-color);
+  text-transform: uppercase;
+}
+
+button[type=button]{
+  background-color: var(--basic-red);
+  color: var(--basic-white);
+}
+
+/* мы с тобой как-то говорили о том, что проекты в каталоге это не картинки, а текст к каждлому проекту свой, я так и не поняла, как вытаскивать текст.
+В тех вебах, которые просмотрены, ответов не было. Если только это связано с фигмой (она у меня браузерная. */
+.project-name {
+  text-transform: uppercase;
+  color: var(--basic-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.project-info {
+  color: var(--map-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.page {
+  color: var(--basic-color);
+  background-color: var(--basic-white);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.pages {
+  color: var(--basic-color);
+  background-color: var(--background-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+}

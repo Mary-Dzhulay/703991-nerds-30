@@ -38,16 +38,25 @@
 --footer-promo-text: #444444;
 }
 
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
 body {
 margin: 0;
 padding: 0;
-font-family: "Roboto", "Arial", sans-serif; /* сначала прописала Robotomedium, Robotobold, потом удалила, прочитав Б10 */
+font-weight: 400;
+font-family: "Roboto", "Arial", sans-serif;
 color: var(--basic-color);
+}
+
+html {
+  box-sizing: border-box;
 }
 
 img {
   max-width: 100%;
-  height: auto;
 }
 
 .main-header {
@@ -82,16 +91,22 @@ text-transform: uppercase;
 }
 
 .description {
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: var(--add-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--add-text-color);
+
 }
 
 .services {
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
+
+}
+
+.hi {
+  display: inline-block;
 }
 
 .red {
@@ -136,6 +151,7 @@ color: var(--add-text-color);
   line-height: 64px;
   font-weight: 700;
   color: var(--basic-color);
+
 }
 
 .percent {
@@ -145,7 +161,7 @@ color: var(--add-text-color);
   color: var(--basic-color);
 }
 
-.th {
+.subtext {
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
@@ -278,4 +294,29 @@ button[type=button]{
   font-weight: 500;
   font-size: 16px;
   line-height: 18px;
+}
+
+/* Grid */
+
+.about1 {
+  display: grid;
+  width: auto;
+  grid-template-columns: 1fr 1fr;
+
+  }
+
+
+.block1 {
+text-align: left;
+}
+
+.block2 {
+text-align: center;
+
+}
+
+
+.block3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }

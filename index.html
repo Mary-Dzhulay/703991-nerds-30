@@ -7,14 +7,12 @@
   <link rel="stylesheet" href="css/style.css">
 
   <link rel="icon" href="favicon.ico"> <!--в видео, которое смотрела последнее, Николай говорил, что этого достаточно, поэтому всё остальное удалила -->
-
 </head>
 
 <body>
-    <header class="main-header">
+      <header class="main-header">
     <nav>
-        <a><img src="img/nerds-logo.png" width="160" height="66" alt="Логотип студии Нёрдс">
-        </a>
+        <a><img src="img/nerds-logo.png" width="160" height="66" alt="Логотип студии Нёрдс"></a>
         <ul>
             <li><a class="nav" href="">Студия</a></li>
             <li><a class="nav" href="">Клиенты</a></li>
@@ -22,14 +20,15 @@
             <li><a class="nav" href="">Контакты</a></li>
             <li><a class="nav" href="">Корзина</a></li>
         </ul>
-      </nav>
+    </nav>
     <p class="text">Долго, дорого,<br>скрупулезно.</p>
     <p class="description">Математически выверенный дизайн<br>для вашего сайта или мобильного приложения.</p>
     <a class="know" href="#">УЗНАТЬ БОЛЬШЕ</a>
     <img src="img/phones.jpg" width="760" height="431" alt="картинка с телефонами справа">
 </header>
 
-<main>
+
+<main class="main">
   <h1>Интернет магазин «Nerds»</h1>
   <section class="services">
     <h2>Услуги</h2>
@@ -48,8 +47,10 @@
             <a class="yellow" href="#">ЗАКАЗАТЬ</a></li>
     </ul>
   </section>
+
+  <div class="about1">
   <section class="about">
-    <h2>О нас</h2>
+        <h2>О нас</h2>
     <p class="slogan">Мы — маленькая, но гордая<br>дизайн-студия из Краснодара.</p>
     <p class="description">Исповедуем принципы минимализма и чистоты. Ставим математический расчет<br>превыше креатива. Работаем не покладая рук, как роботы.</p>
   </section>
@@ -61,8 +62,11 @@
       <li><p class="description">Мобильных приложений для iOS и Android</p></li>
       <li><p class="description">Слайдшоу и видео для корпоративных презентаций</p></li>
     </ul>
+  </div>
     </section>
+
     <!--раз фоновая, значит будет добавляться посредством background в css?-->
+    <div class="block2">
     <p class="do">С 2004 ГОДА ЛЮБИМ ТОЧНОСТЬ ВО ВСЕМ:</p>
       <table>
         <tr class="numbers">
@@ -70,12 +74,15 @@
           <td>100<sup class="percent">%</sup></td>
           <td>50<sup class="percent">%</sup></td>
         </tr>
-        <tr>
-        <th>Уровень<br>cамоотдачи</th>
-        <th>Соблюдение<br>cроков</th>
-        <th>Минимальная<br>предоплата</th>
+      <tr>
+        <th class="subtext">Уровень<br>cамоотдачи</th>
+        <th class="subtext">Соблюдение<br>cроков</th>
+        <th class="subtext">Минимальная<br>предоплата</th>
       </tr>
-    </table>
+      </table>
+    </div>
+
+
   <section class="partners">
     <a href="#"><img src="img/academy-logo.png" width="199" height="68" alt="Лого Академии"></a>
     <a href="#"><img src="img/borod-logo.png" width="209" height="90" alt="Лого Бородинский"></a>
@@ -89,6 +96,8 @@
   <a class="write" href="#">НАПИШИТЕ НАМ</a>
   <img src="img/mark.png" width="231" height="190" alt="Точка Нёрдс на карте">
   <img src="img/map.jpg" width="1440" height="416" alt="карта">
+
+  <div class="block3">
   <section class="footer-info">
     <ul>
       <li><a href=""><span class="icon">ВКонтакте</span></a><li>
@@ -101,5 +110,6 @@
   <p class="footer-text">Скидка 10% для друзей из социальных сетей.</p>
 </section>
 </footer>
+</div>
 </body>
 </html>

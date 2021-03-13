@@ -95,18 +95,12 @@ text-transform: uppercase;
   font-size: 16px;
   line-height: 24px;
   color: var(--add-text-color);
-
 }
 
 .services {
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
-
-}
-
-.hi {
-  display: inline-block;
 }
 
 .red {
@@ -151,7 +145,6 @@ text-transform: uppercase;
   line-height: 64px;
   font-weight: 700;
   color: var(--basic-color);
-
 }
 
 .percent {
@@ -300,23 +293,26 @@ button[type=button]{
 
 .about1 {
   display: grid;
-  width: auto;
   grid-template-columns: 1fr 1fr;
-
+  width: 1440px; /* Ширина слоя */
+  margin: 0 auto; /* Значение отступов */
   }
 
-
-.block1 {
-text-align: left;
+.about {
+  border: 3Px solid rgb(19, 0, 129);
+  margin: 0 auto;
 }
+
 
 .block2 {
-text-align: center;
-
-}
-
+  border: 3Px solid rgb(129, 41, 0);
+  margin: 0 auto;
+  }
 
 .block3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 3Px solid red;
+  width: 1440px;
+  margin: 0 auto;
 }

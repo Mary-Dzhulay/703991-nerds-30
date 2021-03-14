@@ -10,6 +10,7 @@
   </head>
 
 <body>
+  <div class="header">
     <header class="main-header catalog">
     <nav>
       <a href="index.html"><img src="img/nerds-logo.png" width="160" height="66" alt="Логотип студии Нёрдс">
@@ -24,13 +25,15 @@
         <p class="text">Магазин готовых шаблонов</p>
     </nav>
     </header>
-<main>
+  </div>
 
+<div class="catalog-grid">
+<main>
+  <div class="filter1">
     <h2>Фильтр товаров</h2>
     <form method="get" action="https://echo.htmlacademy.ru">
       <fieldset>
         <legend class="filter">Стоимость:</legend>
-        <div></div>
         <ul>
             <li>
                 <p>ОТ 0 ДО 15 000</p>
@@ -55,9 +58,14 @@
             <li><label><input name="check" type="checkbox" value="bin"><span class="choice">Корзина</span></label></li>
         </ul>
       </fieldset>
+
       <button type="submit">Показать</button>
+
     </form>
-   <section>
+  </div>
+     </div>
+
+  <div class="sorting">
     <h2>Список сайтов</h2>
     <h5 class="filter">Сортировать:</h5>
     <ul>
@@ -105,6 +113,9 @@
             <button type="button">9 900 ₽</button>
         </li>
     </ul>
+  </div>
+
+  <div class="num">
     <ul>
         <li>
           <a class="page" href="#">1</a>
@@ -119,25 +130,31 @@
           <a class="pages" href="#">Следующая</a>
         </li>
       </ul>
-    </section>
+    </div>
     </main>
+
+    <div class="map">
     <footer class="main-footer">
       <h2 class="map-heading">NЁRDS DESIGN STUDIO</h2>
       <p class="window">191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8<br>тел. +7 (812) 275-75-75</p>
       <a class="write" href="#">НАПИШИТЕ НАМ</a>
       <img src="img/mark.png" width="231" height="190" alt="Точка Нёрдс на карте">
       <img src="img/map.jpg" width="1440" height="416" alt="карта">
-      <section class="footer-info">
-        <ul>
-          <li><a href=""><span class="icon">ВКонтакте</span></a><li>
-          <li><a href=""><span class="icon">Facebook</span></a><li>
-          <li><a href=""><span class="icon">Instagram</span></a><li>
-        </ul>
+  </div>
+
+  <div class="block3">
+    <section class="footer-info">
+      <ul>
+        <li><a href=""><span class="icon">ВКонтакте</span></a><li>
+        <li><a href=""><span class="icon">Facebook</span></a><li>
+        <li><a href=""><span class="icon">Instagram</span></a><li>
+      </ul>
       </section>
-    <section class="footer-promo">
-      <p><b class="benefit">Давайте дружить, это выгодно!</b></p>
-      <p class="footer-text">Скидка 10% для друзей из социальных сетей.</p>
-    </section>
-    </footer>
-    </body>
-    </html>
+  <section class="footer-promo">
+    <p><b class="benefit">Давайте дружить, это выгодно!</b></p>
+    <p class="footer-text">Скидка 10% для друзей из социальных сетей.</p>
+  </section>
+  </footer>
+  </div>
+  </body>
+  </html>

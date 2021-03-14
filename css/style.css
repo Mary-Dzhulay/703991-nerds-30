@@ -315,6 +315,23 @@ button[type=button]{
   border: 3px solid rgb(145, 148, 0);
 }
 
+.sidebar {
+  width: 1440px;
+  margin: 0 auto;
+  border: 3px solid rgb(74, 0, 247);
+}
+
+.sorting {
+  width: 1440px;
+  margin: 0 auto;
+  border: 3px solid rgb(247, 0, 0);
+}
+
+.num {
+  border: 3Px solid rgb(214, 0, 107);
+  width: 1440px;
+}
+
 
 
 
@@ -329,15 +346,12 @@ button[type=button]{
 
 .about {
   border: 3Px solid rgb(19, 0, 129);
-
 }
 
 
 .block2 {
   border: 3Px solid rgb(129, 41, 0);
   padding: auto;
-
-
   }
 
 .block3 {
@@ -347,3 +361,18 @@ button[type=button]{
   width: 1440px;
   margin: 0 auto;
 }
+
+.catalog-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 3Px solid red;
+  margin: 0 auto;
+}
+
+.filter1 {
+  border: 3Px solid rgb(0, 90, 12);
+  width: 1440px;
+}
+
+
+

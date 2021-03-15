@@ -330,6 +330,7 @@ button[type=button]{
 .num {
   border: 3Px solid rgb(214, 0, 107);
   width: 1440px;
+  margin: 0 auto;
 }
 
 
@@ -365,14 +366,21 @@ button[type=button]{
 .catalog-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  border: 3Px solid red;
+  border: 2Px solid red;
   margin: 0 auto;
-}
-
-.filter1 {
-  border: 3Px solid rgb(0, 90, 12);
   width: 1440px;
 }
 
+.list {
+  border: 2Px solid rgb(7, 0, 0);
+  margin: 0 auto;
+  width: 1440px;
+}
+
+.catalog {
+  border: 3Px solid rgb(131, 0, 98);
+  margin: 0 auto;
+  width: 1440px;
+}
 
 

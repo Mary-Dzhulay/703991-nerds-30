@@ -380,10 +380,31 @@ button[type=button]{
 
 .list {
   border: 2Px solid rgb(7, 0, 0);
-  margin: 0 auto;
+
 }
 
 .catalog {
   border: 3Px solid rgb(131, 0, 98);
-  margin: 0 auto;
+
 }
+
+/* Flex */
+
+.index-flex {
+  display: flex;
+  border: 3Px solid rgb(15, 15, 15);
+  justify-content: space-around;
+}
+
+
+.services-flex {
+  display: flex;
+  border: aqua;
+  justify-content: space-around;
+}
+
+.icon-flex {
+  display: flex;
+  justify-content: space-around;
+}
+

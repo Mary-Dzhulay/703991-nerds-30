@@ -10,20 +10,22 @@
   </head>
 
 <body>
-  <div class="header1">
-    <header class="main-header catalog">
-    <nav>
+  <div class="header">
+    <header class="main-header">
+    <nav class="general">
       <a href="index.html"><img src="img/nerds-logo.png" width="160" height="66" alt="Логотип студии Нёрдс">
       </a>
-        <ul>
+      <ul class="index-flex">
             <li><a class="nav" href="">Студия</a></li>
             <li><a class="nav" href="">Клиенты</a></li>
             <li><a class="nav" href="">Магазин</a></li>
             <li><a class="nav" href="">Контакты</a></li>
             <li><a class="nav" href="">Корзина</a></li>
         </ul>
-        <p class="text">Магазин готовых шаблонов</p>
     </nav>
+    <div class="view">
+      <p class="text">Магазин готовых шаблонов</p>
+    </div>
     </header>
   </div>
 
@@ -64,14 +66,16 @@
 <section class="catalog">
      <h2>Список сайтов</h2>
     <h5 class="filter">Сортировать:</h5>
-    <ul>
+    <ul class="sorting">
         <li><a class="price" href="#">ПО ЦЕНЕ</a></li>
         <li><a class="type" href="#">ПО ТИПУ</a></li>
         <li><a class="type" href="#">ПО НАЗВАНИЮ</a></li>
         <li><a href="#">от большего к меньшему</a></li>
         <li><a href="#">от меньшего к большему</a></li>
     </ul>
-    <ul>
+
+<div class="cards">
+    <ul class="cards-item">
         <li>
             <img src="img/sedona.jpg" width="359" height="578" alt="Седона">
             <h3><a class="project-name" href="">SEDONA</a></h3>
@@ -109,11 +113,12 @@
             <button type="button">9 900 ₽</button>
         </li>
     </ul>
-  </section>
+  </div>
+</section>
   </div>
 
   <div class="num">
-    <ul>
+    <ul class="pages">
         <li>
           <a class="page" href="#">1</a>
         </li>
@@ -141,7 +146,7 @@
 
   <div class="block3">
     <section class="footer-info">
-      <ul>
+      <ul class="icon-flex">
         <li><a href=""><span class="icon">ВКонтакте</span></a><li>
         <li><a href=""><span class="icon">Facebook</span></a><li>
         <li><a href=""><span class="icon">Instagram</span></a><li>

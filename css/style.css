@@ -390,11 +390,19 @@ button[type=button]{
 
 /* Flex */
 
+.general {
+  display: flex;
+  border: 3Px solid rgb(15, 15, 15);
+
+
+}
+
 .index-flex {
   display: flex;
   border: 3Px solid rgb(15, 15, 15);
   justify-content: space-around;
 }
+
 
 
 .services-flex {
